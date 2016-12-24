@@ -2,6 +2,10 @@
 RUN=test
 EPS=1.00
 
+%:%.p
+
+%.o:%.p
+
 passive_sphere_EPS$(EPS)_RUN$(RUN):
 	mkdir passive_sphere_EPS$(EPS)_RUN$(RUN)
 
