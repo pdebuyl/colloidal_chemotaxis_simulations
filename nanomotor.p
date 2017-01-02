@@ -36,8 +36,8 @@ sigma_N = 3
 d = 6.7
 track_y_shift = 3.4
 
-epsilon_C = 1 0.5 1
-epsilon_N = 1 0.5 1 
+epsilon_C = 1 {EPS} 1
+epsilon_N = 1 {EPS} 1
 
 # orientation of the dimer
 N_in_front = F
